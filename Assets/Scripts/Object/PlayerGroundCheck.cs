@@ -9,9 +9,9 @@ public class PlayerGroundCheck : Singleton<PlayerGroundCheck>
     public LayerMask checkLayerMask;
     Collider2D[] colliders = new Collider2D[1];
 
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, checkRadius);
-    }
+    // private void OnDrawGizmos()
+    // {
+    //     Gizmos.color = Color.red;
+    //     Gizmos.DrawWireSphere(transform.position, checkRadius);
+    // }
 }
